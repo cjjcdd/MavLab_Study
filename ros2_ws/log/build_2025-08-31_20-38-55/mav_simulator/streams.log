@@ -1,0 +1,26 @@
+[0.917s] Invoking command in '/home/jj/Desktop/MavLab_Study/ros2_ws/src/student/tut_04/mav_simulator': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mav_simulator build --build-base /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build install --record /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/install.log --single-version-externally-managed install_data
+[1.228s] running egg_info
+[1.248s] writing ../../../../build/mav_simulator/mav_simulator.egg-info/PKG-INFO
+[1.249s] writing dependency_links to ../../../../build/mav_simulator/mav_simulator.egg-info/dependency_links.txt
+[1.249s] writing entry points to ../../../../build/mav_simulator/mav_simulator.egg-info/entry_points.txt
+[1.249s] writing requirements to ../../../../build/mav_simulator/mav_simulator.egg-info/requires.txt
+[1.249s] writing top-level names to ../../../../build/mav_simulator/mav_simulator.egg-info/top_level.txt
+[1.288s] reading manifest file '../../../../build/mav_simulator/mav_simulator.egg-info/SOURCES.txt'
+[1.288s] adding license file 'LICENSE'
+[1.289s] writing manifest file '../../../../build/mav_simulator/mav_simulator.egg-info/SOURCES.txt'
+[1.289s] running build
+[1.289s] running build_py
+[1.289s] copying mav_simulator/mav_control.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator
+[1.289s] running install
+[1.297s] running install_lib
+[1.316s] copying /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator/mav_control.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator
+[1.317s] byte-compiling /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator/mav_control.py to mav_control.cpython-312.pyc
+[1.319s] running install_data
+[1.319s] running install_egg_info
+[1.339s] removing '/home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator-0.0.1-py3.12.egg-info' (and everything under it)
+[1.339s] Copying ../../../../build/mav_simulator/mav_simulator.egg-info to /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator-0.0.1-py3.12.egg-info
+[1.340s] running install_scripts
+[1.475s] Installing mav_control script to /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/mav_simulator
+[1.475s] Installing mav_simulate script to /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/mav_simulator
+[1.475s] writing list of installed files to '/home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/install.log'
+[1.509s] Invoked command in '/home/jj/Desktop/MavLab_Study/ros2_ws/src/student/tut_04/mav_simulator' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mav_simulator build --build-base /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build install --record /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/install.log --single-version-externally-managed install_data

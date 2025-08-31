@@ -8,5 +8,11 @@ def generate_launch_description():
             executable='mav_simulate',
             name='mav_simulate',
             output='screen'
+        ),
+        Node(
+            package='mav_simulator',
+            executable='mav_control',
+            name='mav_control',
+            output='screen'
         )
     ])

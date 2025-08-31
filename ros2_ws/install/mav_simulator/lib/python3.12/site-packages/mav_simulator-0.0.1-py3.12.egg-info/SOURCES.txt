@@ -11,6 +11,7 @@ setup.py
 ../../../../build/mav_simulator/mav_simulator.egg-info/zip-safe
 launch/mav_launch.py
 mav_simulator/__init__.py
+mav_simulator/mav_control.py
 mav_simulator/mav_simulate.py
 resource/mav_simulator
 test/test_copyright.py

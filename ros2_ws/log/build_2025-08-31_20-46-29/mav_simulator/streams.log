@@ -1,0 +1,44 @@
+[1.025s] Invoking command in '/home/jj/Desktop/MavLab_Study/ros2_ws/src/student/tut_04/mav_simulator': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mav_simulator build --build-base /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build install --record /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/install.log --single-version-externally-managed install_data
+[1.328s] running egg_info
+[1.329s] creating ../../../../build/mav_simulator/mav_simulator.egg-info
+[1.347s] writing ../../../../build/mav_simulator/mav_simulator.egg-info/PKG-INFO
+[1.347s] writing dependency_links to ../../../../build/mav_simulator/mav_simulator.egg-info/dependency_links.txt
+[1.347s] writing entry points to ../../../../build/mav_simulator/mav_simulator.egg-info/entry_points.txt
+[1.348s] writing requirements to ../../../../build/mav_simulator/mav_simulator.egg-info/requires.txt
+[1.348s] writing top-level names to ../../../../build/mav_simulator/mav_simulator.egg-info/top_level.txt
+[1.348s] writing manifest file '../../../../build/mav_simulator/mav_simulator.egg-info/SOURCES.txt'
+[1.385s] reading manifest file '../../../../build/mav_simulator/mav_simulator.egg-info/SOURCES.txt'
+[1.386s] adding license file 'LICENSE'
+[1.386s] writing manifest file '../../../../build/mav_simulator/mav_simulator.egg-info/SOURCES.txt'
+[1.386s] running build
+[1.386s] running build_py
+[1.387s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build
+[1.387s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib
+[1.387s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator
+[1.387s] copying mav_simulator/mav_control.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator
+[1.387s] copying mav_simulator/mav_simulate.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator
+[1.387s] copying mav_simulator/__init__.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator
+[1.387s] running install
+[1.395s] running install_lib
+[1.416s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator
+[1.416s] copying /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator/mav_control.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator
+[1.416s] copying /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator/mav_simulate.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator
+[1.416s] copying /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build/lib/mav_simulator/__init__.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator
+[1.417s] byte-compiling /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator/mav_control.py to mav_control.cpython-312.pyc
+[1.418s] byte-compiling /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator/mav_simulate.py to mav_simulate.cpython-312.pyc
+[1.420s] byte-compiling /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator/__init__.py to __init__.cpython-312.pyc
+[1.420s] running install_data
+[1.421s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/share/ament_index
+[1.421s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/share/ament_index/resource_index
+[1.421s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/share/ament_index/resource_index/packages
+[1.421s] copying resource/mav_simulator -> /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/share/ament_index/resource_index/packages
+[1.421s] copying package.xml -> /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/share/mav_simulator
+[1.421s] creating /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/share/mav_simulator/launch
+[1.422s] copying launch/mav_launch.py -> /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/share/mav_simulator/launch
+[1.422s] running install_egg_info
+[1.441s] Copying ../../../../build/mav_simulator/mav_simulator.egg-info to /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages/mav_simulator-0.0.1-py3.12.egg-info
+[1.442s] running install_scripts
+[1.582s] Installing mav_control script to /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/mav_simulator
+[1.583s] Installing mav_simulate script to /home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/mav_simulator
+[1.583s] writing list of installed files to '/home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/install.log'
+[1.616s] Invoked command in '/home/jj/Desktop/MavLab_Study/ros2_ws/src/student/tut_04/mav_simulator' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jj/Desktop/MavLab_Study/ros2_ws/install/mav_simulator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/mav_simulator build --build-base /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/build install --record /home/jj/Desktop/MavLab_Study/ros2_ws/build/mav_simulator/install.log --single-version-externally-managed install_data
