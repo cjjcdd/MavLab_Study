@@ -1,0 +1,44 @@
+# Simulation input file for the Delft Catamaran 372 (DC372)
+#
+# This YAML file defines all physical parameters, initial
+# conditions, simulation options and control settings required to
+# simulate the manoeuvring motion of the DC372.  You may edit
+# these values to match a particular scenario or full scale test.
+
+vessel:
+  # Physical properties
+  mass: 100000.0    # Vessel mass [kg]
+  Iz:   1.0e7       # Yaw moment of inertia about z–axis [kg·m²]
+  x_g:  0.0         # Longitudinal position of centre of gravity [m]
+  rho:  1025.0      # Water density [kg/m³]
+  L:    100.0       # Characteristic length, e.g. waterline length [m]
+  U:    5.0         # Forward (surge) speed [m/s]
+
+  # Initial conditions (full state is 13×1, unused states are zero)
+  initial:
+    x:     0.0      # Initial x position [m]
+    y:     0.0      # Initial y position [m]
+    z:     0.0      # Initial z position [m]
+    phi:   0.0      # Initial roll angle [rad]
+    theta: 0.0      # Initial pitch angle [rad]
+    psi:   0.0      # Initial yaw angle [rad]
+    u:     5.0      # Initial surge velocity [m/s]
+    v:     0.0      # Initial sway velocity [m/s]
+    w:     0.0      # Initial heave velocity [m/s]
+    p:     0.0      # Initial roll rate [rad/s]
+    q:     0.0      # Initial pitch rate [rad/s]
+    r:     0.0      # Initial yaw rate [rad/s]
+    delta: 0.0      # Initial rudder angle [rad]
+
+simulation:
+  dt:    0.1        # Time step for output [s]
+  t_end: 200.0      # Total simulation time [s]
+
+control:
+  type: fixed       # Control type: 'fixed' or 'switching'
+  amplitude: 0.1745 # Rudder amplitude [rad] (10°)
+  period:    50.0   # Switching period [s] (only for switching control)
+
+# Path to the hydrodynamic coefficients file.  This path is
+# relative to the location of this YAML file.
+hydro_coeffs: hyd.yml

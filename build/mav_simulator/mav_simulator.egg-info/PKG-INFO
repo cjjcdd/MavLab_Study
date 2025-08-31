@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mav-simulator
+Version: 0.0.1
+Summary: MAV Lab - Vessel simulator for ROS 2
+Maintainer: Abhilash Somayajula
+Maintainer-email: abhilash@iitm.ac.in
+License: MIT
+License-File: LICENSE

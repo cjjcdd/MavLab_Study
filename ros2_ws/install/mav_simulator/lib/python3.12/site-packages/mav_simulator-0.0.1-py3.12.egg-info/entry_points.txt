@@ -1,0 +1,2 @@
+[console_scripts]
+mav_simulate = mav_simulator.mav_simulate:main

@@ -1,0 +1,27 @@
+# Hydrodynamic coefficients for the Delft Catamaran 372 (DC372)
+#
+# The coefficients listed here follow the Abkowitz notation for a
+# slender ship performing manoeuvres in the horizontal plane.  They
+# are provided in non‑dimensional form and are converted to
+# dimensional values at run time in the `_dimensionalize_coefficients`
+# method of the `Vessel` class.  See the lecture notes and the
+# reference paper for further details on the scaling used.  The values
+# used below are representative of the DC372 at a Froude number
+# around 0.4 and may be adjusted by the user as required.
+#
+# Added mass derivatives (non‑dimensional)
+Xu_dot: -0.10
+Yv_dot: -1.00
+Yr_dot:  0.00
+Nv_dot:  0.00
+Nr_dot: -0.10
+
+# Linear damping derivatives (non‑dimensional)
+Yv:  -0.05
+Yr:   0.10
+Nv:   0.10
+Nr:  -0.25
+
+# Rudder derivatives (non‑dimensional)
+Y_delta:  0.20
+N_delta: -0.05
